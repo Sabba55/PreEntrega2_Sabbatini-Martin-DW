@@ -1,0 +1,436 @@
+/* quitamos los bordes */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------------------- Ajustes Generales -------------------------------- */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* -------------------------------- INDEX.HTML -------------------------------- */
+/* ~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~ */
+header{
+    display: flex;
+    height: auto;
+    padding: 15px;
+
+    background-color: rgb(19, 19, 19);
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_div_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo_img{
+    height: 50px;
+}
+
+/* testeando */
+.div_toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+
+    display: none;
+}
+
+.header_barra a{
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.header_barra_a:hover{
+    color: black;
+    background-color: red;
+    border-radius: 3px;
+    cursor: pointer
+}
+
+/* ~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgb(19, 19, 19);
+    height: auto;
+    padding: 15px;
+}
+
+/* modificamos el loog del footer */
+.footer_div_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_div_logo img{
+    height: 50px;
+}
+
+/* modificamos los iconos */
+.footer_div_redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 10px;
+}
+
+.footer_div_redes a{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.footer_div_redes a:hover{
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+.footer_div_redes_img{
+    height: 25px;
+}
+
+
+
+
+/* -------------------------------- CONTACTOS.HTML -------------------------------- */
+/* ~~~~~~~~~~~~~~ MAIN ~~~~~~~~~~~~~~ */
+
+.main_contacto {
+    padding: 2rem 2rem;
+}
+
+/* edicion del h1 */
+.container_contacto h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    position: relative;
+    bottom: 20px;
+
+    background-color: white;
+}
+
+/* edicion de la imagen */
+.container_img_form {
+    display: flex;
+    padding: 2rem 8rem;
+}
+
+.img_contacto{
+    padding: 5rem 2rem;
+}
+
+.test{
+    max-width: 90%;
+    height: auto;
+}
+
+/* comenzamos con la edicion del formulario */
+.container_form{
+    margin: auto;
+}
+
+.formulario{
+    display: block;
+    padding: 2rem;
+}
+
+.general_form{
+    margin-top: 1rem;
+}
+
+label{
+    display: block;
+}
+
+.form_label {
+    /* margin-bottom: 0.1rem; */
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.form_input {
+    display: block;
+    width: 120%;
+    padding: 10px;
+
+    background-color: white;
+    color: #000000;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    font-size: 30px;
+    align-items: center;
+}
+
+/* y por ultimo los botones */
+.bottom_contacto{
+    text-align: center;
+    padding: 10px;
+}
+
+/* -------------------------------- GALERIA.HTML -------------------------------- */
+/* ~~~~~~~~~~~~~~ MAIN ~~~~~~~~~~~~~~ */
+.div_argentina_title{
+    padding: 10px;
+}
+
+.div_argentina_title h1{
+    text-align: center;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    position: relative;
+
+    background-color: white;
+}
+/* 
+.div_argentina_title h1:hover{
+    background-color: darkcyan;
+} */
+
+.div_argentina_section{
+    /* padding: 10px; */
+    /* margin: 10px; */
+    height: auto;
+
+    /* -+- Propiedades de la caja -+- */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}   
+
+
+.argentina_section_caja{
+    flex-grow: 3;
+}
+
+.argentina_section_caja img{
+    object-fit: cover;
+    width: 100%;
+    height: 100% ;
+}
+
+/* ~~~ CAJA HIJOS ~~~ */
+.caja{
+    width: 120px;
+    height: 250px;
+    margin: 5px;
+}
+/* -------------------------------- NOSOTROS.HTML -------------------------------- */
+
+.nosotros_main{
+    padding: 20px;
+}
+
+.nosotros_main_container1{
+    display: flex;
+    padding: 20px;
+}
+
+.nosotros_main_container1_imagen1 img{
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+}
+
+.nosotros_main_container1_imagen1 img:hover{
+    border: 5px solid rgb(0, 102, 255);
+}
+
+.nosotros_main_container1_title1{
+    padding-left: 20px;
+}
+
+.nosotros_main_container1_title1 h1{
+    font-weight: bold; 
+    font-style: italic; 
+    color: white;
+}
+
+
+
+
+
+.nosotros_main_container2{
+    display: flex;
+    padding: 20px;
+}
+
+.nosotros_main_container2_imagen2 img{
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+}
+
+.nosotros_main_container2_imagen2 img:hover{
+    border: 5px solid rgb(0, 102, 255);
+}
+
+.nosotros_main_container2_title2{
+    padding-right: 20px;
+}
+
+.nosotros_main_container2_title2 h1{
+    font-weight: bold; 
+    font-style: italic; 
+    color: white;
+}
+
+/* -------------------------------- SERVICIOS.HTML -------------------------------- */
+.img_servicios{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* --------------- Ajustando todo para el telefono --------------- */
+
+@media screen and (min-width:348px) and (max-width: 450px){
+    /* esto es para el header */
+    header{
+        flex-direction: column;
+        height: auto;
+    }  
+
+    .header_barra{
+        padding: 10px 0px;
+    }
+
+    .header_barra a{
+        color: rgb(255, 255, 255);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 12px;
+    
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    /* esto es para el footer */
+    .footer_div_logo img{
+        height: 35px;
+    }
+    
+    .footer_div_redes a{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .footer_div_redes_img{
+        height: 22px;
+    }
+
+
+    /* Zona Servicios */
+    .img_servicios{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        left: 30px;
+        height: 200px;
+    }
+
+
+
+
+
+    /* Zona Nosotros */
+    .nosotros_main{
+        padding: 10px;
+    }
+    
+    .nosotros_main_container1{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        padding-left: 40px;
+    }
+    
+    .nosotros_main_container1_imagen1 img{
+        object-fit: cover;
+        width: 100%;
+        height: 100% ;
+        border: 4px solid white;
+    }
+    
+    .nosotros_main_container1_title1{
+        padding: 10px;
+    }
+    
+    .nosotros_main_container1_title1 h1{
+        text-align: center;
+    }
+
+    .nosotros_main_container1_title1 p{
+        text-align: center;
+    }
+    
+    
+    
+    .nosotros_main_container2{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        padding-left: 40px;
+        justify-content: center;
+    }
+    
+    .nosotros_main_container2_imagen2 img{
+        object-fit: cover;
+        width: 100%;
+        height: 100% ;
+        border: 4px solid white;
+    }
+    
+    .nosotros_main_container2_title2{
+        padding: 10px;
+    }
+    
+    .nosotros_main_container2_title2 h1{
+        text-align: center;
+    }
+
+    .nosotros_main_container2_title2 p{
+        text-align: center;
+    }
+    
+}
